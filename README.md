@@ -1,15 +1,8 @@
-# Remotion video
+# Controlling CSS animations from Remotion
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.gif">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+We don't recommend using CSS animations by default, but to [animate properties](/docs/animating-properties) in JavaScript.
 
-Welcome to your Remotion project!
+This is a demo for those who already have a lot of CSS animations that they would like to bring to Remotion without refactor them.
 
 ## Commands
 
