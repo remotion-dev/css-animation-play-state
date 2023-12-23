@@ -4,6 +4,8 @@ We don't recommend using CSS animations by default, but to [animate properties](
 
 This is a demo for those who already have a lot of CSS animations that they would like to bring to Remotion without refactor them.
 
+[Open this demo in StackBlitz](https://stackblitz.com/~/github.com/remotion-dev/css-animation-play-state)
+
 ## Commands
 
 **Install Dependencies**
