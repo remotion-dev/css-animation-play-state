@@ -1,4 +1,9 @@
-import {AbsoluteFill, spring, useCurrentFrame, useVideoConfig} from 'remotion';
+import {
+	AbsoluteFill,
+	interpolate,
+	useCurrentFrame,
+	useVideoConfig,
+} from 'remotion';
 import styles from './styles.module.css';
 
 const ANIMATION_DURATION = 1;
@@ -7,12 +12,8 @@ export const MyComposition = () => {
 	const frame = useCurrentFrame();
 	const {fps} = useVideoConfig();
 
-	const progress = spring({
-		fps,
-		frame,
-		config: {
-			damping: 200,
-		},
+	const progress = interpolate(frame, [0, fps * ANIMATION_DURATION], [0, 1], {
+		extrapolateRight: 'clamp',
 	});
 
 	const animationDelay = progress * -ANIMATION_DURATION;

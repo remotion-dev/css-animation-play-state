@@ -9,5 +9,5 @@
 }
 
 .box {
-	animation: scale 1s;
+	animation: scale 1s ease-in-out;
 }
