@@ -1,6 +1,6 @@
 # Controlling CSS animations from Remotion
 
-We don't recommend using CSS animations by default, but to [animate properties](/docs/animating-properties) in JavaScript.
+We don't recommend using CSS animations by default, but to [animate properties](https://remotion.dev/docs/animating-properties) in JavaScript.
 
 This is a demo for those who already have a lot of CSS animations that they would like to bring to Remotion without refactor them.
 
